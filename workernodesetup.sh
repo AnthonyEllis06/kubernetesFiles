@@ -1,5 +1,4 @@
-#!/bin/bash 
-
+#!/bin/bash
 #semanage install
 echo Installing SEManage
 dnf -y install policycoreutils-python-utils
@@ -25,5 +24,6 @@ restorecon -R -v $ConfigFile
 done
 
 echo finished setting up worker nodes
+
 
 
