@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash 
 
 #semanage install
 echo Installing SEManage
@@ -25,4 +25,5 @@ restorecon -R -v $ConfigFile
 done
 
 echo finished setting up worker nodes
+
 
